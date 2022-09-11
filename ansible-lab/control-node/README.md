@@ -8,7 +8,7 @@ vagrant plugin install vagrant-winnfsd
 
 ### Easy Notes API Test
 
-* Ensure correctly running using curl command:
+* Ensure correctly running using `curl` command:
 
 ```curl
 
@@ -17,4 +17,4 @@ curl -X POST http://app01:8080/api/notes -H 'Content-Type: application/json' -d 
 ```
 
 * Need be executed in `/vagrant` directory inside `control-node` virtual machine 
-
+* Or execute `curl` command out of VMs using `127.0.0.1` instead `app01`
