@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 yum install epel-release -y
-yum install wget -y
+yum install wget git -y
 yum install java-11-openjdk-devel -y
 
 echo "Installing docker..."
