@@ -27,3 +27,5 @@ sudo yum install jenkins -y
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
 sudo systemctl restart docker
+
+sudo usermod -aG docker jenkins
