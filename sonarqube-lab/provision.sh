@@ -41,4 +41,5 @@ echo 'export PATH=$PATH:/opt/sonar-scanner/bin' | sudo tee -a /etc/profile
 curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
 sudo yum install nodejs -y
 
-
+sudo yum install telnet -y
+sudo yum install net-tools -y
