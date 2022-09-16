@@ -36,7 +36,7 @@ unzip sonar-scanner-cli-4.6.2.2472-linux.zip -d /opt/
 mv /opt/sonar-scanner-cli-4.6.2.2472-linux /opt/sonarqube-scanner
 chown -R sonar:sonar /opt/sonarqube-scanner
 
-echo 'export PATH=$PATH:/opt/sonar-scanner/bin' | sudo tee -a /etc/profile
+echo 'export PATH=$PATH:/opt/sonarqube-scanner/bin' | sudo tee -a /etc/profile
 
 curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
 sudo yum install nodejs -y
